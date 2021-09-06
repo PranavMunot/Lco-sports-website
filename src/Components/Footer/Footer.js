@@ -14,7 +14,7 @@ function Footer() {
           <h1 className="footer-navigation-heading">Website Navigation</h1>
           <ul className="footer-navigation-list">
             <li className="footer-navigation-item">
-              <a className="footer-navigation-link" href="#">
+              <a className="footer-navigation-link" href="#home">
                 Home
               </a>
             </li>
@@ -67,7 +67,7 @@ function Footer() {
           >
             <AiFillInstagram className="social-icon" />
           </a>
-          <a className="social-link" href="">
+          <a className="social-link" href="https://twitter.com">
             <AiFillTwitterCircle className="social-icon" />
           </a>
           <a className="social-link" href="https://wa.me/+918669171507">

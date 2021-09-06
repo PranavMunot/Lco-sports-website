@@ -5,7 +5,7 @@ const Navlist = ({ onClick }) => {
   const list = (
     <ul className="navigation-list ">
       <li onClick={onClick} className="navigation-item">
-        <a href="#" className="navigation-link">
+        <a href="#home" className="navigation-link">
           Home
           <span className="navigation-link-bottom" />
         </a>
@@ -28,12 +28,12 @@ const Navlist = ({ onClick }) => {
           <span className="navigation-link-bottom" />
         </a>
       </li>
-      <li onClick={onClick} className="navigation-item">
+      {/* <li onClick={onClick} className="navigation-item">
         <a href="#" className="btn navigation-link">
           Authenticate
           <span className="navigation-link-bottom" />
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 

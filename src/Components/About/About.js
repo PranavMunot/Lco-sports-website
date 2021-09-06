@@ -30,7 +30,7 @@ function About() {
           </p>
         </div>
         <div className="col-1-2">
-          <img src={logo} alt="logo Image" className="about-image" />
+          <img src={logo} alt="logo" className="about-image" />
         </div>
       </div>
     </section>

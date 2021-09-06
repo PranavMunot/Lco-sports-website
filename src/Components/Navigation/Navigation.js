@@ -19,7 +19,7 @@ const Navigation = () => {
       {isOpen ? <Navlist onClick={closeBtnHandler} /> : null}
       <div className="row navigation">
         <div className="col-1-2 navigation-logo-area">
-          <a href="#">
+          <a href="#home">
             <img src={logo} alt="logo" className="navigation-logo" />
           </a>
         </div>
