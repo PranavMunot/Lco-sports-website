@@ -1,0 +1,12 @@
+.row {
+  max-width: 1148px;
+  margin: 0 auto;
+  display: flex;
+  &-col {
+    flex-direction: column;
+  }
+}
+
+.col-1-2 {
+  flex: 1;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+  .main-tagline {
+    font-size: 6rem;
+    transform: skew(0deg);
+  }
+  .heading {
+    font-size: 3rem !important;
+  }
+  .row-sm {
+    flex-direction: column;
+  }
+  .tournament-text {
+    font-size: 3rem;
+  }
+
+  .faq-card {
+    font-size: 4rem;
+  }
+}

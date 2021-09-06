@@ -1,0 +1,49 @@
+.section-faq {
+  text-align: center;
+  min-height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba($primary-color, 0.4),
+      rgba($primary-color, 0.4)
+    ),
+    url(./../../images/artimg-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.faq {
+  &-card {
+    margin: 1rem;
+    background-color: $primary-color;
+    border-radius: 1rem;
+    transition: all 0.35s;
+    font-size: 5rem;
+    font-weight: 500;
+    &-answer {
+      color: $tertiary-color;
+      text-align: justify;
+      padding: 1rem;
+    }
+
+    &-question {
+      color: $tertiary-color;
+      text-align: justify;
+      padding: 1rem;
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      &-icon-down {
+        cursor: pointer;
+        transition: all 0.35s;
+        transform: rotate(0deg);
+      }
+      &-icon-up {
+        cursor: pointer;
+        transition: all 0.35s;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

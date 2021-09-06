@@ -1,0 +1,15 @@
+.section-tournament {
+  text-align: center;
+
+  padding: 5rem 0;
+}
+.tournament {
+  &-text {
+    font-size: 5rem;
+    color: $tertiary-color;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: $primary-color;
+  }
+}

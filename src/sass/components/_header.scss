@@ -1,0 +1,12 @@
+.header {
+  height: 95vh;
+  background: linear-gradient(
+      to right bottom,
+      rgba($primary-color, 0.2),
+      rgba($tertiary-color, 0.5)
+    ),
+    url("../../images/img3.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
